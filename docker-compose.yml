@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  service-dtu-pay:
+    image: service-dtu-pay
+    container_name: service-dtu-pay
+    ports:
+      - "8080:8080"
